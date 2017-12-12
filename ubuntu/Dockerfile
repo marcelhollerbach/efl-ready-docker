@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENTRYPOINT ["export", "PATH=$HOME/.local/bin:$PATH"]
+ENV PATH="~/.local/bin:${PATH}"
 
 RUN apt update
 
