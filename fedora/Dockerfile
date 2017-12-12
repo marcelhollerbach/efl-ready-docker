@@ -15,4 +15,5 @@ python3-pip scim-devel systemd-devel texlive-base uuid-devel \
 valgrind-devel wayland-devel wayland-protocols-devel \
 xcb-util-keysyms-devel xorg-x11-server-Xephyr git clang
 
+RUN git clone http://git.enlightenment.org/core/efl.git
 

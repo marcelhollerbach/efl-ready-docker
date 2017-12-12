@@ -21,3 +21,5 @@ linux-tools-common texlive-base unity-greeter-badges \
 valgrind xserver-xephyr ninja-build python3-pip git
 
 RUN pip3 install --user meson
+
+RUN git clone http://git.enlightenment.org/core/efl.git
