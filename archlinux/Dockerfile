@@ -8,6 +8,8 @@ RUN pacman -S --noconfirm git bullet libjpeg-turbo gst-plugins-base \
          libxcursor libxp libwebp shared-mime-info \
          libxkbcommon wayland lz4 openjpeg avahi \
          libspectre libraw librsvg wayland-protocols \
-         git meson ninja clang gcc pkgconfig check
+         git ninja clang gcc pkgconfig check
+
+RUN pip3 install --user meson
 
 RUN git clone http://git.enlightenment.org/core/efl.git 

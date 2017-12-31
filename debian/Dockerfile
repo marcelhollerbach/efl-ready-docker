@@ -12,7 +12,9 @@ RUN apt-get install -y make gcc bison flex gawk subversion automake \
   libtiff5-dev libgif-dev curl libssl-dev libspectre-dev libpoppler-dev \
   librsvg2-dev libraw-dev libxinerama-dev git libfribidi-dev libcogl-gles2-dev \
   libbullet-dev libgstreamer-plugins-base1.0-dev libvlc-dev libpoppler-cpp-dev \
-  libsystemd-dev systemd libsystemd0 clang gcc meson clang
+  libsystemd-dev systemd libsystemd0 clang gcc clang
+
+RUN pip3 install --user meson
 
 RUN git clone http://git.enlightenment.org/core/efl.git
 
