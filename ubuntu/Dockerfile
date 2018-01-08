@@ -18,7 +18,7 @@ libudisks2-dev libunibreak-dev libunwind-dev libvlc-dev libwebp-dev \
 libxcb-keysyms1-dev libxcursor-dev libxine2-dev libxinerama-dev \
 libxkbfile-dev libxrandr-dev libxss-dev libxtst-dev \
 linux-tools-common texlive-base unity-greeter-badges \
-valgrind xserver-xephyr ninja-build python3-pip git clang
+valgrind xserver-xephyr ninja-build python3-pip git clang lua5.2 
 
 RUN pip3 install --user meson
 
