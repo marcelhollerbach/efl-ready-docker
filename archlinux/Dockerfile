@@ -9,7 +9,7 @@ RUN pacman -S --noconfirm git bullet libjpeg-turbo gst-plugins-base \
          libxkbcommon wayland lz4 openjpeg avahi \
          libspectre libraw librsvg wayland-protocols \
          git ninja clang gcc pkgconfig check python-pip \
-	 libxdamage poppler
+	 libxdamage poppler automake autoconf
 
 RUN pip3 install --user meson
 
